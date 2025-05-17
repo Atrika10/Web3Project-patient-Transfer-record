@@ -1,0 +1,15 @@
+[package]
+name = "patient-transfer"
+version = "1.0.0"
+authors = []
+
+[addresses]
+patient_transfer = "0x25f79edd1d09b6d7e55ea63edb7455ae9caffc5adf1971942d04504286ddfda6"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
